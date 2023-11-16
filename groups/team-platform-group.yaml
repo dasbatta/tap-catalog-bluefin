@@ -20,6 +20,6 @@ metadata:
 spec:
   profile:
     displayName: Abdul
-    email: Abdul@example.com
+    email: abdul.zafar@fiserv.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Nala
   memberOf: [team-platform]

@@ -19,8 +19,8 @@ metadata:
   name: James
 spec:
   profile:
-    displayName: Bluefin Developer
-    email: guest1@example.com
+    displayName: James
+    email: james.higginsthomas@fiserv.com
     picture: https://api.dicebear.com/7.x/personas/svg?seed=Shadow
   memberOf: [team-bluefin]
 
@@ -31,7 +31,7 @@ metadata:
   name: Jacob
 spec:
   profile:
-    displayName: Bluefin Developer
-    email: guest1@example.com
+    displayName: Jacob
+    email: jacob.vaidyan@fiserv.com
     picture: https://api.dicebear.com/7.x/personas/svg?seed=Gizmo
   memberOf: [team-bluefin]

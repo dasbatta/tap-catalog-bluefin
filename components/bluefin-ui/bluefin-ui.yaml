@@ -4,7 +4,6 @@ metadata:
   name: bluefin-ui
   description: bluefin UI App
   tags:
-    - javascript
     - Angular
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=bluefin-ui,tier=frontend'
@@ -18,4 +17,4 @@ spec:
   lifecycle: experimental
   owner: team-bluefin
   system: bluefin
-  dependsOn: [Component:bluefin-appserver]
+  dependsOn: [Component:bf-api-appserver]

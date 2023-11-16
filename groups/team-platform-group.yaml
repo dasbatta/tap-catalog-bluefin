@@ -6,6 +6,7 @@ metadata:
 spec:
   type: team
   profile:
+    displayName: platform-admin
     # Intentional no displayName for testing
     email: team-platform@example.com
     picture: https://api.dicebear.com/7.x/bottts/svg?seed=Bailey
@@ -17,8 +18,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Abdul
-    description: Zafar, Abdul
-    tags:
+  description: Zafar, Abdul
+  tags:
     - Platform Admin
 spec:
   profile:

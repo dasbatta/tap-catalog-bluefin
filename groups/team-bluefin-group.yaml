@@ -6,6 +6,7 @@ metadata:
 spec:
   type: team
   profile:
+    displayName: Bluefin-dev
     # Intentional no displayName for testing
     email: team-bluefin@example.com
     picture: https://api.dicebear.com/7.x/bottts/svg?seed=Boots

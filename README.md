@@ -1,1 +1,1 @@
-Sample org structure for application catalog
+Sample org structure for Bluefin Application catalog

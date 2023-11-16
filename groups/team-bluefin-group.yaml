@@ -18,9 +18,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: James
-  description: Higgins-Thomas, James
-  tags:
-    - Bluefin Developer
 spec:
   profile:
     displayName: James
@@ -33,9 +30,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Jacob
-  description: Vaidyan, Jacob
-  tags:
-    - Bluefin Developer
 spec:
   profile:
     displayName: Jacob

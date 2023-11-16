@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bluefin-ui
+  description: bluefin UI App
+  tags:
+    - javascript
+    - Angular
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=bluefin-ui,tier=frontend'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://bluefin-ui.example.com
+      title: 'Bluein UI Information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-bluefin
+  system: bluefin
+  dependsOn: [Component:bluefin-appserver]

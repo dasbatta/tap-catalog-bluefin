@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: bluefin-db
+  description: Stores Bluefin application Database
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  type: database
+  owner: team-platform
+  system: bluefin

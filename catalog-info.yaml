@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bluefin-catalog-info
+  description: A sample catalog for the Bluefin application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/bluefin-ui/bluefin-ui.yaml
+##    - ./components/redis-server/redis-server.yaml
+    - ./components/bluefin-db/bluefin-db.yaml
+    - ./components/bluefin-appserver/bluefin-appserver.yaml
+    - ./groups/org.yaml
+    - ./systems/bluefin-system.yaml
+    - ./resources/bluefin-db-resource.yaml
+    - ./domains/cloudapps-domain.yaml

@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-platform
+  description: Platform
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-platform@example.com
+    picture: https://api.dicebear.com/7.x/bottts/svg?seed=Bailey
+  parent: development
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Abdul
+spec:
+  profile:
+    displayName: Abdul
+    email: Abdul@example.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Nala
+  memberOf: [team-platform]

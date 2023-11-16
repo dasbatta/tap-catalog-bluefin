@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bluefin-db
+  description: Bluefin Backend DB
+  tags:
+    - sql
+    - redis
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=bluefin-db,tier=backenddb'
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-platform
+  system: bluefin

@@ -18,9 +18,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Abdul
-  description: Zafar, Abdul
-  tags:
-    - Platform Admin
 spec:
   profile:
     displayName: Abdul

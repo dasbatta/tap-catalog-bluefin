@@ -8,7 +8,6 @@ metadata:
 spec:
   targets:
     - ./components/bluefin-ui/bluefin-ui.yaml
-##    - ./components/redis-server/redis-server.yaml
     - ./components/bluefin-db/bluefin-db.yaml
     - ./components/bluefin-appserver/bluefin-appserver.yaml
     - ./groups/org.yaml

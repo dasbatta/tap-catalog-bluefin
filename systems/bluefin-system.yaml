@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: bluefin
-  description: BLUEFIN Application
+  description: BLUEFIN-Application
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:

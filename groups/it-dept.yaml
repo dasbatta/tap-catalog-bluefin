@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: it
-  description: The IT department
+  description: IT-department
 spec:
   type: department
   # Intentional no profile for testing

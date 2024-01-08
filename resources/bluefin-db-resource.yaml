@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: bluefin-db
-  description: Stores Bluefin application Database
+  description: StoresBluefinapplicationDatabase
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:

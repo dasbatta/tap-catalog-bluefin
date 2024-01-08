@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: development
-  description: The Development sub-department
+  description: The-Development-sub-department
 spec:
   type: sub-department
   profile:

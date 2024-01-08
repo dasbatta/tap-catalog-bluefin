@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: cloud-apps
-  description: Everything related to Cloud Applications
+  description: CloudApps
   links:
     - url: http://example.com/domain/cloud-apps/
-      title: Domain Readme
+      title: DomainReadme
     - url: http://example.com/domains/cloud-apps/dashboard
-      title: Cloud Apps Dashboard
+      title: CloudAppsDashboard
       icon: dashboard
   annotations:
     'backstage.io/techdocs-ref': dir:.

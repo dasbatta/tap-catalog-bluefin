@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: bluefin-catalog-info
-  description: A sample catalog for the Bluefin application
+  description: Bluefin-Application-sample-catalog
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:

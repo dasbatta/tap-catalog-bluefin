@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: fiserv-devops
-  description: The fiserv-devops organization
+  description: fiserv-devops
   links:
     - url: http://www.backstage.io/
       title: Website
@@ -11,7 +11,7 @@ metadata:
 spec:
   type: organization
   profile:
-    displayName: Fiserv DEVOPS
+    displayName: FiservDEVOPS
     email: demo@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [it]
@@ -20,7 +20,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: example-group
-  description: A Backstage example group
+  description: Backstage-example-group
 spec:
   targets:
     - ./it-dept.yaml
